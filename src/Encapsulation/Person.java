@@ -1,10 +1,10 @@
-package Inheritance;
+package Encapsulation;
 
-public class Demo {
- private int id;
- private String name;
- private String gender;
- private int sal;
+public class Person {
+private int id;
+private String name;
+private String gender;
+private String DOB;
 public int getId() {
 	return id;
 }
@@ -23,15 +23,15 @@ public String getGender() {
 public void setGender(String gender) {
 	this.gender = gender;
 }
-public int getSal() {
-	return sal;
+public String getDOB() {
+	return DOB;
 }
-public void setSal(int sal) {
-	this.sal = sal;
+public void setDOB(String dOB) {
+	DOB = dOB;
 }
 @Override
 public String toString() {
-	return "Demo [id=" + id + ", name=" + name + ", gender=" + gender + ", sal=" + sal + "]";
+	return "Person [id=" + id + ", name=" + name + ", gender=" + gender + ", DOB=" + DOB + "]";
 }
- 
+
 }

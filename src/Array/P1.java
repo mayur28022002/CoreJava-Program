@@ -12,3 +12,5 @@ public class P1 {
 	System.out.println("Maxiumn Value is "+max);
 }
 }
+
+	
